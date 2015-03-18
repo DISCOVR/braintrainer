@@ -1,0 +1,45 @@
+Base path: /Applications/Unity/Unity.app/Contents
+Pipe name: \\.\pipe\UnityShaderCompiler-1--1591606872
+Cmd: getPlatforms
+Cmd: preprocess
+  insize=1376 outsize=650 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1028 outsize=397 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1028 outsize=225 kw= ok=1
+Cmd: preprocess
+  insize=894 outsize=1094 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=4469 outsize=919 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=4469 outsize=436 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=2490 outsize=817 kw=POINT ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=2490 outsize=606 kw=POINT ok=1
+Cmd: preprocess
+  insize=2344 outsize=1625 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1022 outsize=397 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1022 outsize=196 kw= ok=1
+Cmd: preprocess
+  insize=2514 outsize=1827 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=988 outsize=397 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=988 outsize=222 kw= ok=1
+Cmd: preprocess
+  insize=1489 outsize=1486 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=2490 outsize=560 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=2490 outsize=424 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=5 type=0 insize=1022 outsize=818 kw= ok=1
+Cmd: compileSnippet
+  api=5 type=1 insize=1022 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=5 type=0 insize=988 outsize=691 kw= ok=1
+Cmd: compileSnippet
+  api=5 type=1 insize=988 outsize=6 kw= ok=1
