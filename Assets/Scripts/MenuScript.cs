@@ -7,7 +7,7 @@ public class MenuScript : MonoBehaviour {
 
 	public Image SelectionText;
 	public List<Sprite> ItemList = new List<Sprite>();
-	private int itemSpot = 1;
+	private int itemSpot = 0;
 	//private float itemSpot1 = 0;
 
 
