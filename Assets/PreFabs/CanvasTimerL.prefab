@@ -140,6 +140,7 @@ MonoBehaviour:
   newTimer: 30
   WinText: {fileID: 155362}
   FailText: {fileID: 155368}
+  CounterText: {fileID: 155364}
 --- !u!114 &11455368
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -202,7 +203,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Wrong
+  m_Text: Out of Time
 --- !u!222 &22255362
 CanvasRenderer:
   m_ObjectHideFlags: 1

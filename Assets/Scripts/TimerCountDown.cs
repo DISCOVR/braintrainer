@@ -13,6 +13,7 @@ public class TimerCountDown : MonoBehaviour {
 
 	public GameObject WinText;
 	public GameObject FailText;
+	public GameObject CounterText;
 
 	// Use this for initialization
 	void Start () {
@@ -29,6 +30,7 @@ public class TimerCountDown : MonoBehaviour {
 		if(timer <= 0)
 		{
 			FailText.SetActive(true);
+			CounterText.SetActive(false);
 
 			timer = newTimer;
 		}

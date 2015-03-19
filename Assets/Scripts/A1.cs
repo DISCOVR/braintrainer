@@ -38,7 +38,7 @@ public class A1 : MonoBehaviour {
 	void Update () {
 		if (guess == answer)
 		{
-			Debug.Log ("CORRECT");
+			//Debug.Log ("CORRECT");
 			Application.LoadLevel(level);
 		}
 
@@ -63,27 +63,27 @@ public class A1 : MonoBehaviour {
 					Application.LoadLevel("A2");
 					//GameObject.Find("CanvasA1").SendMessage("RightSelection");
 					GameObject.Find("CanvasA1").SendMessage("North");
-					Debug.Log("North");
+					//Debug.Log("North");
 				}
 				
 				if (hit.collider.name == ("East_1")) {
 					Application.LoadLevel("A2");
 					//GameObject.Find("CanvasA1").SendMessage("RightSelection");
 					GameObject.Find("CanvasA1").SendMessage("East");
-					Debug.Log("East");
+					//Debug.Log("East");
 				}				
 
 				if (hit.collider.name == ("South_1")) {
 					Application.LoadLevel("A2");
 					GameObject.Find("CanvasA1").SendMessage("South");
-					Debug.Log("South");
+					//Debug.Log("South");
 				}
 
 				if (hit.collider.name == ("West_1")) {
 					Application.LoadLevel("A2");
 					//GameObject.Find("CanvasA1").SendMessage("RightSelection");
 					GameObject.Find("CanvasA1").SendMessage("South");
-					Debug.Log("West");
+					//Debug.Log("West");
 				}
 
 				if (hit.collider.name == ("NorthEast_1")) {

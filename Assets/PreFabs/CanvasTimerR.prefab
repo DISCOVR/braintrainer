@@ -95,7 +95,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Wrong
+  m_Text: Out of Time
 --- !u!114 &11469614
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -151,6 +151,7 @@ MonoBehaviour:
   newTimer: 30
   WinText: {fileID: 169618}
   FailText: {fileID: 169612}
+  CounterText: {fileID: 169616}
 --- !u!114 &11469620
 MonoBehaviour:
   m_ObjectHideFlags: 1
