@@ -25,7 +25,7 @@ public class TimerCountDown : MonoBehaviour {
 	void Update () {
 	
 		timer -= Time.deltaTime;
-		counter.text = ("" + timer);
+		counter.text = (":" + (timer % 60).ToString ("00"));
 		if(timer <= 0)
 		{
 			FailText.SetActive(true);

@@ -18,6 +18,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/B2.unity
   - enabled: 1
+    path: Assets/Scenes/B3.unity
+  - enabled: 1
     path: Assets/Scenes/C1.unity
   - enabled: 1
     path: Assets/Scenes/C2.unity

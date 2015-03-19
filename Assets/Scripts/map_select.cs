@@ -32,6 +32,11 @@ public class map_select : MonoBehaviour {
 
 			if (Input.GetMouseButtonDown (0)) 
 			{
+
+				//if (guess != answer)
+				//{
+				//	GameObject.Find("incorrect_audio").SendMessage("playSound");
+				//}
 				Debug.Log("CLICK");
 
 				if (hit.collider.name == ("North_1")) {
