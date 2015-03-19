@@ -8,10 +8,11 @@ PlayerSettings:
   defaultScreenOrientation: 3
   targetDevice: 2
   targetGlesGraphics: 1
+  targetIOSGraphics: -1
   targetResolution: 0
   accelerometerFrequency: 60
-  companyName: Oculus
-  productName: Oculus Sample
+  companyName: DICOVR
+  productName: Brain Trainer
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   defaultScreenWidth: 1920
@@ -72,6 +73,7 @@ PlayerSettings:
   metroEnableLowLatencyPresentationAPI: 0
   productGUID: 1e0f517e732798d45bc1455680f5dc67
   iPhoneBundleVersion: 1.0
+  iPhoneShortBundleVersion: 1.0
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 19
   AndroidPreferredInstallLocation: 1
@@ -85,7 +87,7 @@ PlayerSettings:
   APKExpansionFiles: 0
   StripUnusedMeshComponents: 0
   iPhoneSdkVersion: 988
-  iPhoneTargetOSVersion: 10
+  iPhoneTargetOSVersion: 16
   uIPrerenderedIcon: 0
   uIRequiresPersistentWiFi: 0
   uIStatusBarHidden: 1
@@ -101,6 +103,15 @@ PlayerSettings:
   iPadHighResPortraitSplashScreen: {fileID: 0}
   iPadLandscapeSplashScreen: {fileID: 0}
   iPadHighResLandscapeSplashScreen: {fileID: 0}
+  iOSLaunchScreenType: 0
+  iOSLaunchScreenPortrait: {fileID: 0}
+  iOSLaunchScreenLandscape: {fileID: 0}
+  iOSLaunchScreenBackgroundColor:
+    serializedVersion: 2
+    rgba: 0
+  iOSLaunchScreenFillPct: 100
+  iOSLaunchScreenSize: 100
+  iOSLaunchScreenCustomXibPath: 
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 2
   AndroidKeystoreName: 
@@ -258,6 +269,7 @@ PlayerSettings:
   tizenMicrophonePermissions: 0
   stvDeviceAddress: 
   wp8UnprocessedPlugins: []
+  intPropertyNames: []
   firstStreamedLevelWithResources: 0
   unityRebuildLibraryVersion: 9
   unityForwardCompatibleVersion: 39

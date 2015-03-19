@@ -16,8 +16,15 @@ public class A1 : MonoBehaviour {
 //	public int west = 4;
 
 	//public string WinLevel;
-	
-	public bool correctAnswer = false;
+
+	public float answer;
+	public string level;
+	float guess=0;
+
+
+	//public bool correctAnswer=false;
+	//string level;
+	//public float answer;
 
 	Ray ray;
 	RaycastHit hit;
@@ -29,10 +36,10 @@ public class A1 : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (correctAnswer == true)
+		if (guess == answer)
 		{
 			Debug.Log ("CORRECT");
-			Application.LoadLevel("A2");
+			Application.LoadLevel(level);
 		}
 
 
@@ -69,7 +76,6 @@ public class A1 : MonoBehaviour {
 				if (hit.collider.name == ("South_1")) {
 					Application.LoadLevel("A2");
 					GameObject.Find("CanvasA1").SendMessage("South");
-					correctAnswer = true;
 					Debug.Log("South");
 				}
 

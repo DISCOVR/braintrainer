@@ -71,6 +71,14 @@ public class selectScript : MonoBehaviour {
 					//Exit
 					Debug.Log("EXIT");
 				}
+
+				if (hit.collider.name == ("home_1")) {
+					Application.LoadLevel("Menu2");
+				}
+
+				if (hit.collider.name == ("restart_1")) {
+					Application.LoadLevel("A1_1");
+				}
 			}
 		}
 		//Debug.DrawRay (transform.position, new Vector3 (0, 0, 100), Color.green);
