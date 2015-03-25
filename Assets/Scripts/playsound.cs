@@ -13,5 +13,5 @@ public class playsound : MonoBehaviour {
 	
 	}
 
-	void playSound(){audio.Play();}
+	void playSound(){GetComponent<AudioSource>().Play();}
 }
