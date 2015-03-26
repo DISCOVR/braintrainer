@@ -11,13 +11,17 @@ public class TimerCountDown : MonoBehaviour {
 	public float timer;
 	public float newTimer;
 
+	public GameObject map;
+
 	public GameObject WinText;
 	public GameObject FailText;
+	public GameObject outoftime;
 
 	// Use this for initialization
 	void Start () {
 		WinText.SetActive(false);
 		FailText.SetActive(false);
+		outoftime.SetActive(false);
 
 	}
 	
@@ -28,9 +32,9 @@ public class TimerCountDown : MonoBehaviour {
 		counter.text = (":" + (timer % 60).ToString ("00"));
 		if(timer <= 0)
 		{
-			FailText.SetActive(true);
-
-			timer = newTimer;
+			counter.gameObject.SetActive(false);
+			outoftime.SetActive(true);
+			map.SendMessage("startwait");
 		}
 
 	}
